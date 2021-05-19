@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Играпопытка</title>
+	<link rel="shortcut icon" href="image/19.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="projectstyle.css">
+	<!-- подключение бибилиотеки jQuery   -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- подключение бибилиотеки jQueryUI -->
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="projectJS.js"></script>
+</head>
+<body>
+	<!--название рейтинга-->
+	<h2 id="nam"></h2>
+	<!--Рейтинг гребанных игр-->
+	<div id="reiting"></div>
+
+	<div id="onescreen">
+		<div id="hello">
+			<h2>1- Кошки-мышки<br>2- Симулятор общаги</h2>
+			<!--Кнопка начала кошки-мышки-->
+			<button id="start1"></button>
+			<!--Кнопка начала симулятора общаги-->
+			<button id="start2"></button>
+		</div>
+		<div id="rules">
+			<h2>Правила игры</h2>
+			<p>1. Цель игры кошки-мышки - собрать цветы и найти мышку.<br> Цель Симулятора - уничтожить как можно больше жуков.<br>2. Управление в кошки-мышки происходит за счёт стрелок на клавиатуре.<br>Управление в симуляторе происходит за счёт мышки.<br>3. При выходе в меню или перезагрузке страницы сбросится весь прогресс.<br>
+			4. Приятной игры)</p>
+		</div>
+	</div>
+
+	<!--Окно игры кошки-мышки-->
+	<div id="game">
+		<h2 id="a1"><span>К</span><span>о</span><span>ш</span><span>к</span><span>и</span><span>-</span><span>м</span><span>ы</span><span>ш</span><span>к</span><span>и</span></h2>
+		
+		<!--Кнопка возврата на главный экран-->
+		<button id="endlevel"></button>
+		<!--Первая игра кошки-мышки-->
+		<button id="first1"></button>
+		<!--Вторая игра кошки-мышки
+		<button id="second1"></button>-->
+		<!--Заставка перед игрой-->
+		<div id="fan"></div>
+		<!--Окошко для игры игры на время-->
+		<div id="window1">
+				<input id="time"></input>
+				<div id="flow"></div><div id="got"><h2 id="hu"></h2></div>
+				<div id="player"></div>
+				<!--Части карты игры на время-->
+				<div id="one">
+					<div id="purpose"></div>
+					<div id="finish"></div>
+				</div>
+				<div id="two">
+					<!--Цветы-->
+					<div id="flower"></div>
+				</div>
+				<div id="three">
+					<div id="flower1"></div>
+				</div>
+				<div id="four">
+					<div id="flower2"></div>
+				</div>
+			</div>
+		
+		
+	</div>
+	<!--Симулятор общаги-->
+	<div id="gamer">
+		<h2 id="a2"><span>С</span><span>и</span><span>м</span><span>у</span><span>л</span><span>я</span><span>т</span><span>о</span><span>р</span><span>&nbsp;</span><span>о</span><span>б</span><span>щ</span><span>а</span><span>г</span><span>и</span></h2>
+		<button id="endlevel1"></button>
+
+		<div id="window3">
+			
+		</div>
+		<div id="Timer"><h2 id="e3"></h2></div>
+
+	</div>
+
+</body>
+</html>
